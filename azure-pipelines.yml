@@ -21,7 +21,7 @@ steps:
   displayName: 'npm install and build'
   
 - script: |
-     npm install --only=dev
+     npm install -g @angular/cli
      npx mocha
   displayName: 'npm install with package.json'
 
